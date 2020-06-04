@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+@font-face {font-family: "Raisonne DemiBold";
+    src: url("//db.onlinewebfonts.com/t/05d0872c73920fc4541caa9c7950f686.eot");
+    src: url("//db.onlinewebfonts.com/t/05d0872c73920fc4541caa9c7950f686.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/05d0872c73920fc4541caa9c7950f686.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/05d0872c73920fc4541caa9c7950f686.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/05d0872c73920fc4541caa9c7950f686.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/05d0872c73920fc4541caa9c7950f686.svg#Raisonne DemiBold") format("svg"); }
+
+.App {
+    text-align: center;
+}
+
+body{
+    font-family:-apple-system,BlinkMacSystemFont,Avenir Next,Avenir,Helvetica,sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.nav li{
+    display: inline-block;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 12px;
+}
+
+.navigator a:hover{
+    color:#222;
+}
+
+.navigator a{
+    color:#fff;
+    font-size: 12px;
+}
+.Brand a{
+    font-size: 20px;
+}
+
+.h2{
+    font-size: 120px;
+}
